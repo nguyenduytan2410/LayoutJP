@@ -1,0 +1,207 @@
+/* Nav */
+
+@media (max-width: 739px) {
+    body {
+        width: 450px;
+    }
+    .body {
+        margin: 10px;
+        padding: 10px;
+    }
+    .leftNav {
+        border: none;
+    }
+    .layout {
+        margin: 0;
+        padding: 0;
+    }
+    .leftNav-select {
+        display: none;
+    }
+    .nav__bars-btn {
+        color: black;
+        display: block;
+    }
+    .nav {
+        width: 330px;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .search {
+        width: 350px;
+    }
+    .search-right {
+        width: 390px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .search-text {
+        display: none;
+    }
+    .search-right_btn {
+        margin: auto;
+        width: 75px;
+        height: 40px;
+    }
+    .search-right_input {
+        margin: auto;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #ced4da;
+        border-radius: 25px;
+        background: #ffffff;
+    }
+    .title_guide {
+        margin-top: 60px;
+        width: 390px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .title_guide p {
+        width: 300px;
+        line-height: 25px;
+    }
+    .content_guide {
+        width: 360px;
+        display: flex;
+        overflow: scroll;
+        border: 2px solid #ffffff;
+    }
+    /* .content_guide::-webkit-scrollbar {
+        width: 20px;
+    } */
+    .content_guide::-webkit-scrollbar-thumb {
+        height: 5px;
+        background: #ced4da;
+        border-radius: 10px;
+    }
+    .button_3col_up {
+        margin: 0 35px;
+        flex-direction: column;
+    }
+    .button_3col_down {
+        margin: 0 35px;
+        flex-direction: column;
+    }
+    .title_output {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .title_output p {
+        width: 300px;
+        line-height: 25px;
+    }
+    .content_output {
+        width: 300px;
+    }
+    .content_output-line,
+    .content_output-line2,
+    .content_output-line3 {
+        width: 350px;
+    }
+    .content_output-line::before {
+        content: "";
+        position: absolute;
+        left: -0.55px;
+        width: 220px;
+        height: 3px;
+        background: #42a7c2;
+    }
+    .content_output-line2::before {
+        content: "";
+        position: absolute;
+        left: -0.55px;
+        width: 120px;
+        height: 3px;
+        background: #42a7c2;
+    }
+    .content_output-line3::before {
+        content: "";
+        position: absolute;
+        left: -0.55px;
+        width: 120px;
+        height: 3px;
+        background: #42a7c2;
+    }
+    .content_output-line h3,
+    .content_output-line2 h3,
+    .content_output-line3 h3 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 15px;
+        text-align: left;
+        color: #42a7c2;
+        margin-top: 26px;
+    }
+    .button_4col {
+        width: 350px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button_4col-item {
+        width: 300px;
+        margin: 10px 100px;
+    }
+    .title_function {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .title_function p {
+        width: 300px;
+        line-height: 25px;
+    }
+    .content_function-line,
+    .content_function-line7,
+    .content_function-line4,
+    .content_function-line5,
+    .content_function-line6 {
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        width: 350px;
+    }
+    .content_function {
+        height: 300px;
+        width: 380px;
+        display: flex;
+        margin-top: 10px;
+        overflow: scroll;
+    }
+    .content_function-list {
+        width: 250px;
+    }
+    .content_function::-webkit-scrollbar-thumb {
+        height: 30px;
+        background: #ced4da;
+        border-radius: 20px;
+    }
+    footer {
+        margin-top: 50px;
+        position: relative;
+        text-align: center;
+        width: 95%;
+    }
+    .footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 95%;
+    }
+    .footer p {
+        font-size: 10px;
+        margin-right: 90px;
+    }
+    @import url(script.js);
+}
